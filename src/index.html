@@ -6,7 +6,7 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
+    <nav class="fixed md:static top-0 left-0 w-full z-50 bg-white">
       <div
         class="container mx-auto px-9 py-5 flex justify-between md:justify-around md:p-6 items-center"
       >
@@ -54,15 +54,19 @@
       </div>
     </nav>
 
-    <section>
+    <section
+      class="w-full md:bg-[url('/assets/images/bg-lg-screen.png')] md:h-[90vh] bg-center bg-cover md:flex md:justify-start md:mx-auto md:items-center"
+    >
       <div class="container">
+        <!-- Mobile Image -->
         <img
           src="/assets/images/rode-wireless-micro-back-lightni.png"
           alt=""
-          srcset=""
-          class="md:hidden w-[100%] "
+          class="md:hidden w-full"
         />
-        <div class="text-center">
+
+        <!-- Text Content -->
+        <div class="text-center w-full md:w-[50vw]">
           <h1 class="font-bold text-4xl my-4">
             WIRELESS
             <span class="text-white bg-amber-400 px-1 rounded-lg"> MICRO </span>
@@ -73,6 +77,165 @@
             go, the Wireless Micro is our smallest, simplest and sleekest
             wireless mic yet.
           </p>
+          <div class="py-5 mb-3">
+            <a
+              class="bg-black text-white px-8 py-4 my-4 font-medium rounded-4xl hover:bg-white hover:text-black hover:border-2 hover:border-black"
+              href="#"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="md:bg-[url('/assets/images/rode-hdmi-hero.png')] md:h-[90vh] bg-center bg-cover md:flex md:flex-reverse md:justify-end md:mx-auto md:items-center"
+    >
+      <div class="container md:w-fit">
+        <!-- Mobile Image -->
+        <img
+          src="/assets/images/rode-hdmi.png"
+          alt=""
+          class="md:hidden w-full"
+        />
+
+        <!-- Text Content -->
+        <div
+          class="main text-center w-full md:w-[50vw] bg-black md:bg-transparent text-white flex justify-center items-center flex-col py-10 md:py-0"
+        >
+          <img
+            src="/assets/images/Caster-video.png"
+            alt=""
+            srcset=""
+            class="w-[95%]"
+          />
+
+          <p class="font-medium text-3xl my-3">Video Production, Evolved</p>
+          <p class="w-[80%] mx-auto text-gray-500 mb-5">
+            A revolutionary all-in-one video and audio production console that
+            combines powerful video switching, recording and production
+            capabilities with a fully integrated professional audio mixer.
+          </p>
+          <div class="py-5">
+            <a
+              class="bg-white text-black px-8 py-4 my-4 font-medium rounded-4xl hover:bg-black hover:text-white hover:border-2 hover:border-white"
+              href="#"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="md:bg-[url('/assets/images/rode-wireless-go-hero.png')] md:h-[90vh] bg-center bg-cover md:flex md:flex-reverse md:justify-end md:mx-auto md:items-center"
+    >
+      <div class="container md:w-fit">
+        <!-- Mobile Image -->
+        <img
+          src="/assets/images/rode-wireless-go.png"
+          alt=""
+          class="md:hidden w-full"
+        />
+
+        <!-- Text Content -->
+        <div
+          class="main text-center w-full md:w-[50vw] md:bg-transparent bg-black text-white flex justify-center items-center flex-col py-10 md:py-0"
+        >
+          <img
+            src="/assets/images/WIGOIII_PL_PI_02.png"
+            alt=""
+            srcset=""
+            class="w-[95%]"
+          />
+
+          <p class="font-medium text-3xl my-3">
+            Your Sound, Your Style, Your Story
+          </p>
+          <p class="w-[80%] mx-auto text-gray-500 mb-5">
+            The third generation of the world’s most popular wireless microphone
+            has arrived.
+          </p>
+          <div class="py-5">
+            <a
+              class="bg-white text-black px-8 py-4 my-4 font-medium rounded-4xl hover:bg-black hover:text-white hover:border-2 hover:border-white"
+              href="#"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-full md:bg-[url('/assets/images/rode-podcast-hero.png')] md:h-[90vh] bg-center bg-cover md:flex md:justify-start md:mx-auto md:items-center"
+    >
+      <div class="container">
+        <!-- Mobile Image -->
+        <img
+          src="/assets/images/rode-podcast.png"
+          alt=""
+          class="md:hidden w-full"
+        />
+
+        <!-- Text Content -->
+        <div
+          class="main text-center w-full md:w-[50vw] md:bg-transparent bg-black text-white flex justify-center items-center flex-col py-10 md:py-0"
+        >
+          <img
+            src="/assets/images/RØDE Banner Bundles_Header.png"
+            alt=""
+            srcset=""
+            class="w-[95%]"
+          />
+
+          <p class="font-medium text-3xl my-3">Gear Up and Start Creating</p>
+          <p class="w-[80%] mx-auto text-gray-500 mb-5">
+            Ranging from compact street interview kits to complete studio
+            setups, there's a RØDE kit for every stage of your creative journey.
+          </p>
+          <div class="py-5">
+            <a
+              class="bg-white text-black px-8 py-4 my-4 font-medium rounded-4xl hover:bg-transparent hover:text-white hover:border-2 hover:border-white"
+              href="#"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="md:bg-[url('/assets/images/PODMIC-White_hero.png')] md:h-[90vh] bg-center bg-cover md:flex md:flex-reverse md:justify-end md:mx-auto md:items-center"
+    >
+      <div class="container md:w-fit">
+        <!-- Mobile Image -->
+        <img
+          src="/assets/images/PODMIC-White.png"
+          alt=""
+          class="md:hidden w-full"
+        />
+
+        <!-- Text Content -->
+        <div
+          class="main text-center w-full md:w-[50vw] bg-white md:bg-transparent text-black flex justify-center items-center flex-col py-10 md:py-0"
+        >
+          <img
+            src="/assets/images/PODMIC USB.png"
+            alt=""
+            srcset=""
+            class="w-[100%]"
+          />
+
+          <p class="font-normal text-3xl my-3">
+            Introducing the PodMic USB in White
+          </p>
+          <p class="w-[80%] mx-auto text-gray-500 mb-5">
+            The PodMic USB is an ultra-versatile dynamic microphone with both an
+            XLR and USB output, ideal for podcasting, streaming, gaming, and
+            other speech applications for content creation. Now available in
+            white.
+          </p>
           <div class="py-5">
             <a
               class="bg-black text-white px-8 py-4 my-4 font-medium rounded-4xl hover:bg-white hover:text-black hover:border-2 hover:border-black"
@@ -80,6 +243,63 @@
               >SHOP NOW</a
             >
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-full md:bg-[url('/assets/images/NT1_SS-Hero.png')] md:h-[90vh] bg-center bg-cover md:flex md:justify-start md:mx-auto md:items-center"
+    >
+      <div class="container">
+        <!-- Mobile Image -->
+        <img src="/assets/images/NT1_SS.png" alt="" class="md:hidden w-full" />
+
+        <!-- Text Content -->
+        <div
+          class="main text-center w-full md:w-[50vw] md:bg-transparent bg-black text-white flex justify-center items-center flex-col py-10 md:py-0"
+        >
+          <img
+            src="/assets/images/signature.png"
+            alt=""
+            srcset=""
+            class="w-[95%]"
+          />
+
+          <p class="font-medium text-3xl my-3">Your New Go-to Studio Mic</p>
+          <p class="w-[80%] mx-auto text-gray-500 mb-5">
+            The NT1 Signature Series is a workhorse studio condenser microphone
+            with a warm, silky character, exceptionally low noise and high SPL
+            handling – ideal in a wide range of studio applications.
+          </p>
+          <div class="py-5">
+            <a
+              class="bg-white text-black px-8 py-4 my-4 font-medium rounded-4xl hover:bg-transparent hover:text-white hover:border-2 hover:border-white"
+              href="#"
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="mx-auto md:w-[80vw]">
+        <h1 class="text-center text-4xl p-4 underline font-medium">
+          Latest From The RØDE Blog
+        </h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 p-4 gap-6 mx-auto bg-gray-100"
+        >
+          <div class="bg-white text-black">
+            <p class="">Wireless Micro Crowned 'Best Microphone' by Rolling Stone</p>
+            <img src="/assets/images/PODMIC-White.png" alt="" srcset="" />
+          </div>
+          <div class="bg-green-500 text-white p-6 rounded-lg">
+            Item 2
+            <img src="/assets/images/rode-podcast.png" alt="" srcset="" />
+          </div>
+          <div class="bg-red-500 text-white p-6 rounded-lg">Item 3</div>
+          <div class="bg-red-500 text-white p-6 rounded-lg">Item 3</div>
         </div>
       </div>
     </section>
